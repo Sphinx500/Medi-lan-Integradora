@@ -18,6 +18,7 @@ class LoginView extends StatelessWidget {
           backgroundColor: Colors.white,
           body: Padding(
             padding: const EdgeInsets.symmetric(horizontal: 50),
+            child: SingleChildScrollView(
             child: Column(
               mainAxisSize: MainAxisSize.max,
               mainAxisAlignment: MainAxisAlignment.center,
@@ -62,6 +63,7 @@ class LoginView extends StatelessWidget {
                   },
                 )
               ],
+            ),
             ),
           )),
     );

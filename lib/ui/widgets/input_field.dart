@@ -22,6 +22,7 @@ class InputField extends StatefulWidget {
   final TextInputFormatter formatter;
 
   InputField(
+    
       {@required this.controller,
       @required this.placeholder,
       this.enterPressed,
@@ -35,7 +36,8 @@ class InputField extends StatefulWidget {
       this.textInputType = TextInputType.text,
       this.password = false,
       this.isReadOnly = false,
-      this.smallVersion = false});
+      this.smallVersion = false, 
+    });
 
   @override
   _InputFieldState createState() => _InputFieldState();

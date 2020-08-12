@@ -21,6 +21,11 @@ Route<dynamic> generateRoute(RouteSettings settings) {
         routeName: settings.name,
         viewToShow: HomeView(),
       );
+    case ButoonRoute:
+      return _getPageRoute(
+        routeName: settings.name,
+        viewToShow: bottoNav(),
+      );
     default:
       return MaterialPageRoute(
           builder: (_) => Scaffold(

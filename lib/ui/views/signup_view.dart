@@ -21,7 +21,7 @@ class SignUpView extends StatelessWidget {
       viewModelBuilder: () => SignUpViewModel(),
       builder: (context, model, child) => Scaffold(
         body: Padding(
-          padding: const EdgeInsets.symmetric(horizontal: 50.0),
+          padding: const EdgeInsets.symmetric(horizontal: 40.0),
           child: SingleChildScrollView(
           child: Column(
             mainAxisSize: MainAxisSize.max,
