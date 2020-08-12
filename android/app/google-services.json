@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "920614150135",
+    "firebase_url": "https://medi-lan-bbb5d.firebaseio.com",
+    "project_id": "medi-lan-bbb5d",
+    "storage_bucket": "medi-lan-bbb5d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:920614150135:android:3c322bb9c79a03177fd8f2",
+        "android_client_info": {
+          "package_name": "com.example.medi_lan3"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "920614150135-a1sar1go89pqe07ujecumln8ptgbt3io.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.medi_lan3",
+            "certificate_hash": "2f6bdd2c605604240a79677a8904626e822d9b65"
+          }
+        },
+        {
+          "client_id": "920614150135-mq4v83bsvag07mdmkhrbutl90lg9v08c.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAR7dA2jyquqbZw8cmHOr06Mz8C-UiXs7Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "920614150135-mq4v83bsvag07mdmkhrbutl90lg9v08c.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
